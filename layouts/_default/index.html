@@ -1,0 +1,10 @@
+{{ define "main" }}
+    <div class="info-card">
+        <div id="h3-hr">
+            <h3><i>{{ .Title }}</i></h3>
+            <hr>
+        </div>
+        <p>{{ .Content }}</p>
+        {{ partial "languages" . }}
+    </div>
+{{ end }}

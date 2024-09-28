@@ -1,0 +1,10 @@
+<meta property="og:title" content="{{ .Site.Title }}">
+<meta property="og:site_name" content="{{ (urls.Parse (.Site.BaseURL)).Host }}">
+<meta property="og:description" content="{{ .Summary }}">
+<meta property="og:type" content="{{ if eq .Kind `page` }}article{{ else }}website{{ end }}">
+<meta property="og:url" content="{{ .Site.BaseURL }}">
+<meta property="og:image" content="{{ .Site.BaseURL }}og-image.png">
+
+{{ $iso8601 := "2006-01-02T15:04:05-07:00" }}
+{{ with .PublishDate }}<meta property="article:published_time" {{ .Format $iso8601 | printf "content=%q" | safeHTMLAttr }}>{{ end }}
+{{ with .Lastmod }}<meta property="article:modified_time" {{ .Format $iso8601 | printf "content=%q" | safeHTMLAttr }}>{{ end }}

@@ -1,6 +1,6 @@
 const wallpapers = [
     {
-        "src": "/assets/papes/colosseo.webp",
+        "src": "/papes/colosseo.webp",
         "meta": {
             "location": {
                 "en-GB": "Colosseum - Rome, Italy",
@@ -11,7 +11,7 @@ const wallpapers = [
         }
     },
     {
-        "src": "/assets/papes/vatican.webp",
+        "src": "/papes/vatican.webp",
         "meta": {
             "location": {
                 "en-GB": "Vatican City",
@@ -22,7 +22,7 @@ const wallpapers = [
         }
     },
     {
-        "src": "/assets/papes/lauterbrunnen.webp",
+        "src": "/papes/lauterbrunnen.webp",
         "meta": {
             "location": {
                 "en-GB": "Lauterbrunnen, Bern, Switzerland",
@@ -33,7 +33,7 @@ const wallpapers = [
         }
     },
     {
-        "src": "/assets/papes/feldkirch.webp",
+        "src": "/papes/feldkirch.webp",
         "meta": {
             "location": {
                 "en-GB": "Feldkirch, Vorarlberg, Austria",
@@ -44,7 +44,7 @@ const wallpapers = [
         }
     },
     {
-        "src": "/assets/papes/bilten.webp",
+        "src": "/papes/bilten.webp",
         "meta": {
             "location": {
                 "en-GB": "Bilten, Glarus, Switzerland",
@@ -55,7 +55,7 @@ const wallpapers = [
         }
     },
     {
-       "src": "/assets/papes/lux.webp",
+       "src": "/papes/lux.webp",
        "meta": {
             "location": {
                 "en-GB": "Luxembourg",
@@ -66,7 +66,7 @@ const wallpapers = [
        }
     },
     {
-        "src": "/assets/papes/santorin-2.webp",
+        "src": "/papes/santorin-2.webp",
         "meta": {
              "location": {
                 "en-GB": "Emporeío, Santorini, Greece",
@@ -77,7 +77,7 @@ const wallpapers = [
         }
     },
     {
-        "src": "/assets/papes/santorin.webp",
+        "src": "/papes/santorin.webp",
         "meta": {
              "location": {
                 "en-GB": "Oía, Santorini, Greece",
@@ -88,7 +88,7 @@ const wallpapers = [
         }
     },
     {
-        "src": "/assets/papes/london.webp",
+        "src": "/papes/london.webp",
         "meta": {
             "location": {
                 "en-GB": "London, United Kingdom",
@@ -99,7 +99,7 @@ const wallpapers = [
         }
     },
     {
-        "src": "/assets/papes/han-sur-lesse.webp",
+        "src": "/papes/han-sur-lesse.webp",
         "meta": {
             "location": {
                 "en-GB": "Han-sur-Lesse, Belgium",
@@ -110,7 +110,7 @@ const wallpapers = [
         }
     },
     {
-        "src": "/assets/papes/breendonk.webp",
+        "src": "/papes/breendonk.webp",
         "meta": {
             "location": {
                 "en-GB": "Fort Breendonk, Belgium",
@@ -121,7 +121,7 @@ const wallpapers = [
         }
     },
     {
-        "src": "/assets/papes/brasil-2.webp",
+        "src": "/papes/brasil-2.webp",
         "meta": {
             "location": {
                 "en-GB": "Minas Gerais, Brazil",
@@ -132,7 +132,7 @@ const wallpapers = [
         }
     },
     {
-        "src": "/assets/papes/brasil-3.webp",
+        "src": "/papes/brasil-3.webp",
         "meta": {
             "location": {
                 "en-GB": "Minas Gerais, Brazil",
@@ -143,7 +143,7 @@ const wallpapers = [
         }
     },
     {
-        "src": "/assets/papes/brasil.webp",
+        "src": "/papes/brasil.webp",
         "meta": {
             "location": {
                 "en-GB": "Minas Gerais, Brazil",
@@ -171,7 +171,7 @@ function setWallpaper(index) {
     nextBg.classList.add('active')
     currentBg.classList.remove('active')
 
-    const lang = document.documentElement.getAttribute("lang")
+    const lang = document.documentElement.getAttribute("lang") || "en-GB"
 
     document.getElementById('location').innerHTML = wallpapers[index].meta.location[lang]
 

@@ -1,0 +1,6 @@
+<meta name="description" content="{{ .Summary }}">
+<meta name="revisit-after" content="7 days">
+<meta name="robots" content="index, follow">
+<meta name="googlebot" content="notranslate">
+<meta name="rating" content="general">
+<meta name="keywords" content="{{ range $i, $e := (site.Params.keywords) }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}">

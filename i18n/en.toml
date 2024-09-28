@@ -1,0 +1,5 @@
+[requires-js]
+    other = "This website requires javascript!"
+
+[404-not-found]
+    other = "404 NOT FOUND!"

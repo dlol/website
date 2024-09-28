@@ -1,6 +1,5 @@
 * {
     font-family: Arial, sans-serif;
-
 }
 
 body, html {
@@ -84,7 +83,7 @@ button:hover {
     color: #FFFFFF;
     border-radius: 8px;
     border: 1px solid #222222;
-    max-width: 300px;
+    max-width: 320px;
     height: fit-content;
 }
 
@@ -97,7 +96,7 @@ a:hover {
 }
 
 .info-card h3 {
-    margin: 0 0 5px 0;
+    margin: 0;
 }
 
 .info-card ul {
@@ -116,10 +115,6 @@ a:hover {
     border-bottom: 1px solid;
     height: 1px;
     width: 100%;
-}
-
-#contact {
-    margin-top: -8px;
 }
 
 #lang {
@@ -162,7 +157,21 @@ p.no-js {
     position: absolute;
 }
 
+h1#_404-title {
+    z-index: 1;
+    color: #FFFFFF;
+    font-size: 64px;
+    text-shadow: #000 0 0 20px;
+}
+
 @media screen and (max-width: 800px) {
+    h1#_404-title {
+        z-index: 1;
+        color: #FFFFFF;
+        font-size: 26px;
+        text-shadow: #000 0 0 20px;
+    }
+
     .info-card {
         position: absolute;
         top: 50%;

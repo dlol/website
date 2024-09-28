@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="{{ .Language.LanguageCode }}">
+    <head>
+        <title>
+            {{ if eq .Page.Kind "404" }}{{ i18n "404-not-found" . }}{{ else if eq .Page.Kind "home" }}{{ .Site.Title }}{{ else }}{{ .Page.Title }} - {{ .Site.Title }}{{ end }}
+        </title>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        {{ if ne .Kind "404" }}
+            {{ template "_internal/schema.html" . }}
+            {{ template "_internal/opengraph.html" . }}
+            {{ template "_internal/twittercards.html" . }}
+        {{ end }}
+
+        {{ if and (not (eq site.Params.tracking "")) (not .Site.BuildDrafts) }}{{ site.Params.tracking | safeHTML }}{{ end }}
+
+        <link rel="icon" type="image/vnd.microsoft.icon" href="/favicon.ico">
+        <link rel="stylesheet" href="{{ (resources.Get `/styles.css` | minify | fingerprint).RelPermalink }}">
+        
+        <script defer src="{{ (resources.Get `/script.js` | minify | fingerprint).RelPermalink }}"></script>
+    </head>
+    <body>
+        <noscript><p class="no-js">{{ i18n "requires-js" . }}</p></noscript>
+
+        <div id="wallpaper1" class="background"></div>
+        <div id="wallpaper2" class="background"></div>
+    
+        <button id="prev" onclick="prevWallpaper()"><b>&lt;</b></button>
+        <button id="next" onclick="nextWallpaper()"><b>&gt;</b></button>
+
+        {{ block "main" . }} {{ end }}
+
+        <div id="metadata">
+            <p id="location"></p>
+            <p id="time"></p>
+        </div>
+    </body>
+</html>
