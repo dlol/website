@@ -1,6 +1,6 @@
 baseURL = "https://konakona.moe/"
 title = "SUPER KONAKONA"
-paginatePath = ""
+paginatePath = "p"
 defaultContentLanguage = "en"
 enableGitInfo = true
 paginate = 15

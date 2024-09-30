@@ -124,9 +124,9 @@ const wallpapers = [
         "src": "/papes/brasil-2.webp",
         "meta": {
             "location": {
-                "en-GB": "Minas Gerais, Brazil",
-                "pt-BR": "Minas Gerais, Brasil",
-                "fr-BE": "Minas Gerais, Brésil"
+                "en-GB": "Inhapim, Minas Gerais, Brazil",
+                "pt-BR": "Inhapim, Minas Gerais, Brasil",
+                "fr-BE": "Inhapim, Minas Gerais, Brésil"
             },
             "date": "2024-07-21T15:48:00.000-03:00"
         }
@@ -135,9 +135,9 @@ const wallpapers = [
         "src": "/papes/brasil-3.webp",
         "meta": {
             "location": {
-                "en-GB": "Minas Gerais, Brazil",
-                "pt-BR": "Minas Gerais, Brasil",
-                "fr-BE": "Minas Gerais, Brésil"
+                "en-GB": "Timóteo, Minas Gerais, Brazil",
+                "pt-BR": "Timóteo, Minas Gerais, Brasil",
+                "fr-BE": "Timóteo, Minas Gerais, Brésil"
             },
             "date": "2024-07-26T10:43:00.000-03:00"
         }
@@ -146,9 +146,9 @@ const wallpapers = [
         "src": "/papes/brasil.webp",
         "meta": {
             "location": {
-                "en-GB": "Minas Gerais, Brazil",
-                "pt-BR": "Minas Gerais, Brasil",
-                "fr-BE": "Minas Gerais, Brésil"
+                "en-GB": "Inhapim, Minas Gerais, Brazil",
+                "pt-BR": "Inhapim, Minas Gerais, Brasil",
+                "fr-BE": "Inhapim, Minas Gerais, Brésil"
             },
             "date": "2024-08-09T13:45:00.000-03:00"
         }
