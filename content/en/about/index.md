@@ -2,6 +2,7 @@
 title: about me and this website
 layout: about
 translationKey: about
+date: 2024-10-02T00:10:59+02:00
 ---
 
 Hi, my name is Diogo and my nickname is "dw" or "diowo" or many others... I like making websites, archiving and self-hosting. For this, I learned a lot about Linux and other UNIX-Like OSes. I currently use Arch Linux on my ThinkPad for tinkering, Windows 11 on my PC and macOS on my MacBook.

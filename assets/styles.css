@@ -89,7 +89,6 @@ button:hover {
     border-radius: 8px;
     border: 1px solid #222222;
     width: 800px;
-    min-height: 70vh;
     overflow: scroll;
 }
 
@@ -230,7 +229,7 @@ div.buttons-88x31 {
 
     #main-card {
         width: 75vw;
-        height: 75vh;
+        height: 70vh;
     }
 
     #main-card img:not(.button-88x31) {
@@ -253,7 +252,7 @@ div.buttons-88x31 {
         padding: 20px;
         color: #FFFFFF;
         border-radius: 8px;
-        width: 55vw;
+        width: 70vw;
     }
 
     button#prev {
@@ -302,5 +301,20 @@ div.buttons-88x31 {
     #metadata #time {
         margin: 0;
         font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    button#prev, button#next {
+        display: none;
+    }
+
+    #main-card {
+        width: 75vw;
+        height: 60vh;
+        position: absolute;
+        top: 44%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 }

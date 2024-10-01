@@ -2,6 +2,7 @@
 title: sobre mim e este site
 layout: about
 translationKey: about
+date: 2024-10-02T00:10:59+02:00
 ---
 
 Oi, o meu nome é Diogo e o meu nick é "dw" ou "diowo" ou muitos outros... Eu gosto de fazer websites, arquivar ficheiros digitais e auto-hospedar serviços online e em casa. Graças a isso, eu aprendi muito sobre Linux e outros sistemas tipo UNIX. Atualmente uso Arch Linux no meu ThinkPad para aprender, Windows 11 no meu PC e macOS no meu MacBook.

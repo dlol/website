@@ -2,6 +2,7 @@
 title: à propos de moi et de ce site
 layout: about
 translationKey: about
+date: 2024-10-02T00:10:59+02:00
 ---
 
 Salut, je m'appelle Diogo et mon pseudo en ligne peut-être "dw" ou "diowo" ou plein d'autres... J'aime créer des sites web, archiver des fichiers digitaux et auto-héberger. Grâce à ça, j'ai beaucoup appris sur Linux et d'autres systèmes type UNIX par moi même (depuis moitié 2020). Actuellement, j'utilise Arch Linux sur mon ThinkPad pour bidouiller, Windows 11 sur mon PC et macOS sur mon MacBook.
