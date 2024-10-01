@@ -3,3 +3,18 @@
 
 [404-not-found]
     other = "ERREUR 404!"
+
+[available-in]
+    other = "Disponible en"
+
+[last-mod]
+    other = "Dernière modf."
+
+[created-on]
+    other = "Crée le"
+
+[history]
+    other = "Historique"
+
+[buttons] # only for buttons @ about me
+    other = "buttons"

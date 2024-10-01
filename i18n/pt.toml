@@ -2,4 +2,20 @@
     other = "Este site precisa de javascript!"
 
 [404-not-found]
-    other = "ERROR 404!"
+    other = "ERRO 404!"
+
+[available-in]
+    other = "Disponível em"
+
+[last-mod]
+    other = "Última modf."
+
+[created-on]
+    other = "Criado em"
+
+[history]
+    other = "Histórico"
+
+[buttons] # only for buttons @ about me
+    other = "botões"
+

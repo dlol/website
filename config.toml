@@ -12,6 +12,30 @@ enableRobotsTXT = true
 [params]
   tracking = "<script defer src='https://u.konakona.moe/script.js' data-website-id='8d395101-a825-482a-8c56-b3988afc691f'></script>"
   keywords = ["linux", "blog", "autism", "foss", "open source", "github", "tutorials", "self-hosting", "personal", "hobby"]
+  repository = "https://git.konakona.moe/dw/konakona.moe/commits/branch/master/"
+
+    [params.buttons]
+    [[params.buttons.button]]
+      url = "https://www.konakona.moe"
+      img = "konakona.png"
+    [[params.buttons.button]]
+      url = "https://nyaa.si/view/917375"
+      img = "konata.gif"
+    [[params.buttons.button]]
+      url = "https://en.wikipedia.org/wiki/High-functioning_autism"
+      img = "autism.png"
+    [[params.buttons.button]]
+      url = "https://www.debian.org/"
+      img = "debian-powered.gif"
+    [[params.buttons.button]]
+      url = "https://gohugo.io/"
+      img = "hugo.png"
+    [[params.buttons.button]]
+      url = "https://wiby.me"
+      img = "wiby.gif"
+    [[params.buttons.button]]
+      url = "https://www.notepad.org/"
+      img = "notepad-fulvio.gif"
 
 [languages]
   [languages.en]
@@ -19,18 +43,42 @@ enableRobotsTXT = true
     languageCode = 'en-GB'
     contentDir = 'content/en'
     weight = 10
+      [[languages.en.menu.main]]
+        name = 'home'
+        url = '/'
+        weight = 10
+      [[languages.en.menu.main]]
+        name = 'about'
+        url = '/about/'
+        weight = 20
 
   [languages.fr]
     LanguageName = "Français"
     languageCode = 'fr-BE'
     contentDir = 'content/fr'
     weight = 20
+      [[languages.fr.menu.main]]
+        name = 'accueil'
+        url = '/'
+        weight = 10
+      [[languages.fr.menu.main]]
+        name = 'à propos'
+        url = '/a-propos/'
+        weight = 20
 
   [languages.pt]
     LanguageName = "Português"
     languageCode = 'pt-BR'
     contentDir = 'content/pt'
     weight = 30
+      [[languages.pt.menu.main]]
+        name = 'início'
+        url = '/'
+        weight = 10
+      [[languages.pt.menu.main]]
+        name = 'sobre'
+        url = '/sobre/'
+        weight = 20
 
 [markup]
   [markup.highlight]
@@ -47,7 +95,7 @@ enableRobotsTXT = true
       table = true
 
 [outputs]
-  home = ["HTML", "RSS"]
+  home = ["HTML"] #, "RSS" enable rss later
   section = ["HTML"]
 
 [taxonomies]

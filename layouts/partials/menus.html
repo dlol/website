@@ -1,0 +1,8 @@
+{{ range $index, $element := .Site.Menus.main }}
+    {{ if $index }} - {{ end }}
+    {{ if eq ($element.URL | relLangURL) ($.RelPermalink) }}
+        [<a target="_self" href="{{ $element.URL | relLangURL }}">{{ $element.Name }}</a>]
+    {{ else }}
+        <a target="_self" href="{{ $element.URL | relLangURL }}">{{ $element.Name }}</a>
+    {{ end }}
+{{ end }}

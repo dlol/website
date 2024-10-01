@@ -1,10 +1,12 @@
 {{ define "main" }}
-    <div class="info-card">
-        <div id="h3-hr">
-            <h3><i>{{ .Title }}</i></h3>
+    <div id="bottom-left-card">
+        <div class="fit-width-hr">
+            <h3><i>{{ (.Site.GetPage "index").Title }}</i></h3>
             <hr>
         </div>
-        <p>{{ .Content }}</p>
+        <p>{{ (.Site.GetPage "index").Content }}</p>
+        <b>&gt;</b> {{ partial "menus" . }}
+        <br><br>
         {{ partial "languages" . }}
     </div>
 {{ end }}

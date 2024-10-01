@@ -3,3 +3,18 @@
 
 [404-not-found]
     other = "404 NOT FOUND!"
+
+[available-in]
+    other = "Available in"
+
+[last-mod]
+    other = "Last Mod."
+
+[created-on]
+    other = "Created On"
+
+[history]
+    other = "History"
+
+[buttons] # only for buttons @ about me
+    other = "buttons"

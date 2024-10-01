@@ -8,5 +8,5 @@
         {{ $link := printf "<a href=\"%s\">%s</a>" .Page.RelPermalink $langName | safeHTML }}
         {{ $links = $links | append $link }}
     {{ end }}
-    {{ delimit $links " - " | safeHTML }}
+    {{ i18n "available-in" . }}: {{ delimit $links " - " | safeHTML }}
 </p>

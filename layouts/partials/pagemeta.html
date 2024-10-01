@@ -1,0 +1,3 @@
+<span class="pagemeta">
+    {{ i18n "last-mod" . }}: {{ .Lastmod | time.Format "2006-01-02" }} | {{ i18n "created-on" . }}: {{ .Date | time.Format "2006-01-02" }} | <a href="{{ site.Params.repository }}content/{{ .Lang }}{{ .Path }}/{{ .File.BaseFileName }}{{ with .File }}.{{ .Ext }}{{ end }}">{{ i18n "history" . }}</a>
+</span>

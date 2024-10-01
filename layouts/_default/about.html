@@ -1,0 +1,26 @@
+{{ define "main" }}
+    <main id="main-card">
+        <div class="fit-width-hr">
+            <h1>
+                <a href="..">←</a>
+                <i>{{ .Title }}</i>
+            </h1>
+            <hr>
+        </div>
+        <br>
+        {{ partial "languages" . }}
+        <p>{{ .Content }}</p>
+
+        <h3>{{ i18n "buttons" . }}</h3>
+        <div class="buttons-88x31">
+            <br>
+            {{ range .Site.Params.buttons.button }}
+                <a data-umami-event="88x31 click {{ index . `img` }}" target="_blank" href="{{ index . `url` }}" title="{{ index . `url` }}"><img class="button-88x31" src="/88x31/{{ index . `img` }}" alt="{{ index . `img` }}"></a>
+            {{ end }}
+            <br>
+            <br>
+        </div>
+
+        {{ partial "pagemeta" . }}
+    </main>
+{{ end }}

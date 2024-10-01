@@ -44,6 +44,10 @@ body, html {
     transform: scale(1.1);
 }
 
+p {
+    margin-top: 5px;
+}
+
 button {
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
@@ -72,7 +76,32 @@ button:hover {
 
 }
 
-.info-card {
+#main-card {
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    color: #FFFFFF;
+    border-radius: 8px;
+    border: 1px solid #222222;
+    width: 800px;
+    min-height: 70vh;
+    overflow: scroll;
+}
+
+#main-card h1 {
+    margin: 0;
+}
+
+#main-card h2, #main-card h3, #main-card h4, #main-card h5, #main-card h6 {
+    margin-bottom: 0;
+}
+
+#bottom-left-card {
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     position: absolute;
@@ -95,35 +124,35 @@ a:hover {
     color: #DDDDDD;
 }
 
-.info-card h3 {
+#bottom-left-card h3 {
     margin: 0;
 }
 
-.info-card ul {
+#bottom-left-card ul {
     margin: 0;
     padding-left: 20px;
 }
 
-.info-card p {
+#bottom-left-card p {
     margin: 12px 0;
 }
 
-.info-card hr {
+p#lang {
+    margin: 0;
+    font-size: 10px;
+}
+
+.fit-width-hr {
+    width: fit-content;
+}
+
+.fit-width-hr hr {
     color: #FFFFFF;
     margin: 0;
     border: none;
     border-bottom: 1px solid;
     height: 1px;
     width: 100%;
-}
-
-#lang {
-    margin: 0;
-    font-size: 10px;
-}
-
-#h3-hr {
-    width: fit-content;
 }
 
 #metadata {
@@ -164,7 +193,50 @@ h1#_404-title {
     text-shadow: #000 0 0 20px;
 }
 
+code {
+    text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    background-color: #00000052;
+    padding: 1px 4px;
+    border-radius: 5px;
+    font-family: monospace;
+}
+
+.pagemeta {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    font-size: 10px;
+}
+
+div.buttons-88x31 {
+    text-align: center;
+}
+
+@media screen and (max-width: 1100px) {
+    #main-card {
+        width: 75vw;
+        height: 75vh;
+    }
+}
+
 @media screen and (max-width: 800px) {
+    .pagemeta {
+        position: relative;
+        font-size: 10px;
+    }    
+
+    #main-card {
+        width: 75vw;
+        height: 75vh;
+    }
+
+    #main-card img:not(.button-88x31) {
+        width: 100%;
+    }
+
     h1#_404-title {
         z-index: 1;
         color: #FFFFFF;
@@ -172,7 +244,7 @@ h1#_404-title {
         text-shadow: #000 0 0 20px;
     }
 
-    .info-card {
+    #bottom-left-card {
         position: absolute;
         top: 50%;
         left: 50%;
@@ -198,7 +270,7 @@ h1#_404-title {
         color: white;
         font-size: 22px;
         height: 80px;
-        width: 40px;
+        width: 25px;
         position: absolute;
     }
 
