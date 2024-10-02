@@ -15,6 +15,10 @@ body, html {
     position: relative;
 }
 
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background-color: transparent; }
+::-webkit-scrollbar-thumb { background-color: #eee; }
+
 .background {
     position: absolute;
     top: 0;
@@ -88,7 +92,7 @@ button:hover {
     color: #FFFFFF;
     border-radius: 8px;
     border: 1px solid #222222;
-    width: 800px;
+    width: 850px;
     max-height: 70vh;
     overflow: scroll;
 }
@@ -204,11 +208,108 @@ code {
     font-family: monospace;
 }
 
+div.highlight > pre {
+    margin: 0;
+    background-color: #282c3470 !important; /* I hate !important */
+}
+
+.highlight * {
+    font-size: 14px;
+    font-family: "Cascadia Code";
+    font-weight: 500;
+}
+
+.highlight code {
+    padding: 0;
+}
+
+.highlight pre {
+    padding: 5px 0;
+}
+
+.highlight tr, .highlight pre {
+    border: none;
+}
+
+.highlight div:first-child {
+    border-radius: 4px;
+}
+
+.highlight td:first-child pre, .highlight pre {
+    border-top-left-radius: 4px;
+    border-top-right-radius: unset;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: unset;
+    overflow-y: hidden;
+}
+
+.highlight td:last-child pre, .highlight pre {
+    border-radius: unset;
+}
+
+.highlight td:last-child pre code, .highlight pre code {
+    white-space: pre;
+}
+
 .pagemeta {
-    position: absolute;
-    bottom: 5px;
-    right: 5px;
+    position: relative;
+    float: right;
     font-size: 10px;
+}
+
+.pagination {
+    display: flex;
+    list-style: none;
+    margin: 3vh 0 1vh 0;
+    justify-content: center;
+}
+
+.page-link {
+    position: relative;
+    display: block;
+    padding: 2px 12px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px;
+    margin: 5px;
+}
+
+.page-item.active {
+    text-decoration: underline;
+    user-select: none;
+}
+
+.page-item {
+    font-size: 14px;
+}
+
+span.section-post-date {
+    color: #CCCCCC;
+    font-weight: bold;
+}
+
+blockquote {
+    margin: 15px 0;
+	font-style: italic;
+    animation: 0.01s textFlicker alternate infinite;
+    padding: 25px 35px;
+	margin-bottom: 16px;
+	position: relative;
+    background: linear-gradient(
+        to right,
+        color-mix(in srgb, currentColor 8%, transparent),
+        color-mix(in srgb, currentColor 30%, transparent),
+        color-mix(in srgb, currentColor 8%, transparent));
+}
+
+blockquote::before {
+	content: ">";
+	font-size: 60px;
+    opacity: .4;
+	position: absolute;
+	top: 10px;
+	left: 15px;
+    z-index: -1;
 }
 
 div.buttons-88x31 {

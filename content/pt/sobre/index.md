@@ -1,6 +1,5 @@
 ---
 title: sobre mim e este site
-layout: about
 translationKey: about
 date: 2024-10-02T00:10:59+02:00
 ---
@@ -15,7 +14,7 @@ Você pode me enviar um email, eu não recebo muitos, então eu vou provavelment
 
 **E-Mail**: <⁪⁪⁪d⁪⁪w⁪⁪ ⁪⁪[⁪⁪a⁪⁪t⁪⁪]⁪⁪ k⁪⁪o⁪⁪n⁪⁪a⁪⁪k⁪⁪o⁪⁪n⁪⁪a⁪⁪ ⁪⁪[⁪⁪d⁪⁪0⁪⁪t⁪⁪]⁪⁪ ⁪⁪m⁪⁪o⁪⁪e⁪⁪>*
 
-<p style="position: relative; bottom: 12px; margin-bottom: -12px; font-size: 12px; margin-left: 10px;"><i>*por favor, copie meu email <u>manualmente</u>, substituindo a obfuscação!</i></p> <br>
+<p style="position: relative; bottom: 12px; margin-bottom: -12px; font-size: 12px; margin-left: 10px;"><i>*por favor, copie meu email <u>manualmente</u>, substituindo a obfuscação!</i></p>
 
 **PGP**: [F646EDE4](/dw%20(F646EDE4)%20%E2%80%93%20Public.asc)**
 
@@ -24,3 +23,7 @@ Você pode me enviar um email, eu não recebo muitos, então eu vou provavelment
 ### status do servidor
 
 <img style="margin-top: 8px" src="https://konakona.moe/fetch.png" alt="fetch">
+
+### botões
+
+{{< buttons >}}

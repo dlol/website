@@ -1,0 +1,13 @@
+{{ $image_og := .Page.Resources.GetMatch (printf "*%s*" (.Get `src`)) }}
+{{ $image := $image_og.Process "jpg q85" }}
+<img
+    loading="lazy"
+    class="img-shortcode"
+    width="{{ default `100%` (.Get `width`) }}"
+    height="{{ default `auto` (.Get `height`) }}"
+    src="{{ $image.RelPermalink }}"
+    alt="{{ replace (.Get `src`) `/` `` }}"
+>
+{{ if default true (.Get `og`) }}
+<a class="img-shortcode" href="{{ $image_og.RelPermalink }}"><b>{{ replace (.Get `src`) `/` `` }}</b></a>
+{{ end }}

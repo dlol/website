@@ -2,4 +2,4 @@
 title: konakona.moe
 ---
 
-diogo's ("dw") autistic outlet: *nix and NT blog (soon™), self-hosting, photos and etc.
+diogo's ("dw") autistic outlet: *NIX and NT blog (soon™), self-hosting, photos and etc.

@@ -1,6 +1,5 @@
 ---
 title: à propos de moi et de ce site
-layout: about
 translationKey: about
 date: 2024-10-02T00:10:59+02:00
 ---
@@ -17,8 +16,6 @@ Vous pouvez m'envoyer un email, je n'en reçois pas souvent donc je le lirai pro
 
 <p style="position: relative; bottom: 12px; margin-bottom: -12px; font-size: 12px; margin-left: 10px;"><i>*merci de copier mon email <u>manuellement</u> en remplaçant l'obfuscation!</i></p>
 
-<br>
-
 **PGP**: [F646EDE4](/dw%20(F646EDE4)%20%E2%80%93%20Public.asc)**
 
 <p style="position: relative; bottom: 12px; margin-bottom: -12px; font-size: 12px; margin-left: 10px;"><i>**note : je n'ai (presque) aucune idée de ce que je fais.</i></p>
@@ -26,3 +23,7 @@ Vous pouvez m'envoyer un email, je n'en reçois pas souvent donc je le lirai pro
 ### statut du serveur
 
 <img style="margin-top: 8px" src="https://konakona.moe/fetch.png" alt="fetch">
+
+### buttons
+
+{{< buttons >}}

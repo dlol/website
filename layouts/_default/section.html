@@ -1,0 +1,30 @@
+{{ define "main" }}
+    <main id="main-card">
+        <div class="fit-width-hr">
+            <h1>
+                <a href="..">←</a>
+                <i>{{ .Title }}</i>
+                <a href="../index.xml"><img height="24" width="24" src="/icons/rss.svg" alt="rss"></a>
+            </h1>
+            <hr>
+        </div>
+        <br>
+
+        {{ partial "languages" . }}
+        <p>{{ .Content }}</p>
+
+        {{ if gt (len (where .Pages "Kind" "page")) 0 }}
+            <ul>
+            {{ range (.Paginate (where .Pages "Kind" "page")).Pages }}
+                <li>
+                    <span class="section-post-date">{{ .Date.Format "2006-01-02" }}:</span> &nbsp;<a href="{{ .Page.RelPermalink }}">{{ .Title | truncate 120 }}</a>
+                </li>
+            {{ end }}
+            </ul>
+        {{ else }}
+            <p>there are no posts{{ i18n "there-are-no-posts-for-now" . }}</p>
+        {{ end }}
+
+        {{ template "_internal/pagination.html" . }}
+    </main>
+{{ end }}

@@ -25,14 +25,20 @@ enableRobotsTXT = true
       url = "https://en.wikipedia.org/wiki/High-functioning_autism"
       img = "autism.png"
     [[params.buttons.button]]
-      url = "https://www.debian.org/"
-      img = "debian-powered.gif"
-    [[params.buttons.button]]
       url = "https://gohugo.io/"
       img = "hugo.png"
     [[params.buttons.button]]
       url = "https://wiby.me"
       img = "wiby.gif"
+    [[params.buttons.button]]
+      url = "https://apple.com/"
+      img = "macmade-fr.gif"
+    [[params.buttons.button]]
+      url = "https://windows.com/"
+      img = "made-with-windows.gif"
+    [[params.buttons.button]]
+      url = "https://www.debian.org/"
+      img = "debian-powered.gif"
     [[params.buttons.button]]
       url = "https://www.notepad.org/"
       img = "notepad-fulvio.gif"
@@ -50,6 +56,10 @@ enableRobotsTXT = true
       [[languages.en.menu.main]]
         name = 'about'
         url = '/about/'
+        weight = 20
+      [[languages.en.menu.main]]
+        name = 'blog'
+        url = '/blog/'
         weight = 20
 
   [languages.fr]
@@ -95,7 +105,7 @@ enableRobotsTXT = true
       table = true
 
 [outputs]
-  home = ["HTML"] #, "RSS" enable rss later
+  home = ["HTML", "RSS"]
   section = ["HTML"]
 
 [taxonomies]

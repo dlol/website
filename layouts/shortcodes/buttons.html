@@ -1,0 +1,8 @@
+<div class="buttons-88x31">
+    <br>
+    {{ range .Site.Params.buttons.button }}
+        <a data-umami-event="88x31 click {{ index . `img` }}" target="_blank" href="{{ index . `url` }}" title="{{ index . `url` }}"><img class="button-88x31" src="/88x31/{{ index . `img` }}" alt="{{ index . `img` }}"></a>
+    {{ end }}
+    <br>
+    <br>
+</div>

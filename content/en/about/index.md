@@ -1,6 +1,5 @@
 ---
 title: about me and this website
-layout: about
 translationKey: about
 date: 2024-10-02T00:10:59+02:00
 ---
@@ -17,8 +16,6 @@ You can send me an email, I don't get emails often so I'll probably read it quic
 
 <p style="position: relative; bottom: 12px; margin-bottom: -12px; font-size: 12px; margin-left: 10px;"><i>*please <u>manually</u> copy my email replacing the obfuscation!</i></p>
 
-<br>
-
 **PGP**: [F646EDE4](/dw%20(F646EDE4)%20%E2%80%93%20Public.asc)**
 
 <p style="position: relative; bottom: 12px; margin-bottom: -12px; font-size: 12px; margin-left: 10px;"><i>**note: i have (almost) no idea what i'm doing.</i></p>
@@ -26,3 +23,7 @@ You can send me an email, I don't get emails often so I'll probably read it quic
 ### server status
 
 <img src="https://konakona.moe/fetch.png" alt="fetch">
+
+### buttons
+
+{{< buttons >}}

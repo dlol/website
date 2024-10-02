@@ -16,6 +16,5 @@
 [history]
     other = "Histórico"
 
-[buttons] # only for buttons @ about me
-    other = "botões"
-
+[rss-description]
+    other = "Fio RSS de {{ .Site.Title }}"
