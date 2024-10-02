@@ -4,7 +4,7 @@ translationKey: about
 date: 2024-10-02T00:10:59+02:00
 ---
 
-Salut, je m'appelle Diogo et mon pseudo en ligne peut-être "dw" ou "diowo" ou plein d'autres... J'aime créer des sites web, archiver des fichiers digitaux et auto-héberger. Grâce à ça, j'ai beaucoup appris sur Linux et d'autres systèmes type UNIX par moi même (depuis moitié 2020). Actuellement, j'utilise Arch Linux sur mon ThinkPad pour bidouiller, Windows 11 sur mon PC et macOS sur mon MacBook.
+Salut, je m'appelle Diogo et mon pseudo peut être "dw" ou "diowo" ou plein d'autres... J'aime créer des sites web, l'archivage et auto-héberger. Grâce à ça, j'ai beaucoup appris sur Linux et d'autres OS de type UNIX. Actuellement, j'utilise Arch Linux sur mon ThinkPad pour bidouiller, Windows 11 sur mon PC et macOS sur mon MacBook.
 
 J'ai également 3 serveurs qui tournent h24, dont 2 à la maison: un Raspberry Pi 3 et mon HomeLab, ainsi que ce VPS sur *[kyun.host](https://kyun.host)*, tous sous Debian GNU/Linux.
 
