@@ -1,6 +1,7 @@
 baseURL = "https://konakona.moe/"
 title = "SUPER KONAKONA"
 defaultContentLanguage = "en"
+copyright = "© 2022-2024 - konakona.moe - all rights reserved"
 enableGitInfo = true
 summaryLength = 35
 enableRobotsTXT = true

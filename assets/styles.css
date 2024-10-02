@@ -257,6 +257,12 @@ div.highlight > pre {
     font-size: 10px;
 }
 
+.copyright-notice {
+    position: relative;
+    float: left;
+    font-size: 10px;
+}
+
 .pagination {
     display: flex;
     list-style: none;
@@ -324,10 +330,10 @@ div.buttons-88x31 {
 }
 
 @media screen and (max-width: 800px) {
-    .pagemeta {
+    .pagemet, .copyright-notice {
         position: relative;
         font-size: 10px;
-    }    
+    }
 
     #main-card {
         width: 75vw;
