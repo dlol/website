@@ -3,13 +3,11 @@ title: "Dynamic DNS with a Single Bash Script using Porkbun's API"
 date: 2024-01-31T16:24:31+01:00
 ---
 
-This tutorial is about a very simple bash script that I have made to update my DNS records on my registrar (porkbun). It is a showcase of that you don't need an account on no-ip or whatever "normies" use. This script works, in particular with [Porkbun](https://porkbun.com) but if you've found my website, it probably means that you can take this as inspiration and use it with the API of another registrar.
+This tutorial is about a very simple bash script that I have made to update my DNS records on my registrar (porkbun). It is a showcase of that you don't need an account on no-ip or whatever other ddns service. This script works, in particular with [Porkbun](https://porkbun.com) but if you've found my website, it probably means that you can take this as inspiration and use it with the API of another registrar.
 
 It's funny that my ISP offers static IPs... for +36€ a month... I defeated that with a 27 SLOC bash script.
 
 ## The Script
-
-The source for this bash script can be found [on my gitea instance](https://git.konakona.moe/diowo/misc/src/branch/master/scripts/porkbun-ddns). You don't have to copy and paste it.
 
 ```bash
 #!/bin/sh
@@ -73,7 +71,7 @@ Now you need to make a cronjob. As stated on the script, it was recommended that
 
 `crontab -e`
 ```plain
-*/10 * * * * /path/to/porkbun-ddns
+*/10 * * * * /usr/local/bin/porkbun-ddns
 ```
 
 ## `chmod` and Change Owner
@@ -94,4 +92,4 @@ The output should be something like:
 .rwxrwx--- root root 1.0 KB Sat Jan 27 23:35:29 2024 porkbun-ddns*
 ```
 
-Happy self-hosting!!!
+Happy self-hosting!

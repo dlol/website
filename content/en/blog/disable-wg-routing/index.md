@@ -5,7 +5,7 @@ date: 2024-02-20T18:40:31+01:00
 
 This was part of my qBittorrent-nox guide but I've slitted it up.
 
-To make WireGuard not route all traffic through it, you'll need to edit your config files. By following this guide you will be leaving the WireGuard interface as just another network interface you can *optionally* bind to, think of Wi-Fi and Ethernet interfaces, depending on the application you can just select which one you are going to use. What's cooler is that, even if your server already acts like a WireGuard server, like mine does, you're still going to be able to use WireGuard as a client. To do this...
+To make WireGuard not route all traffic through it, you'll need to edit your config files. By following this guide you will be leaving the WireGuard interface as just another network interface you can *optionally* bind to, think of Wi-Fi and Ethernet interfaces, depending on the application you can just select which one you are going to use. What's cooler is that, even if your server already acts like a WireGuard server, like mine does, you're still going to be able to use WireGuard as a client. To do this:
 
 Leave `AllowedIPs=` as is `(0.0.0.0/0)`.
 
@@ -48,7 +48,5 @@ ifconfig
 curl ip.me
 curl --interface <your-wg-conf> ip.me
 ```
-
---
 
 Thanks to this blog post: <https://shibumi.dev/posts/disable-routing-for-wireguard/>

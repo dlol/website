@@ -3,7 +3,7 @@ title: "How to Disable IPv6 Support on Cloudflare"
 date: 2024-04-12T19:04:06+02:00
 ---
 
-Cloudflare makes it a chore to disable IPv6 support on their edge servers, you can't just flick the switch on the dashboard, which is annoying. Probably because "muh ipv4 exhaustion!!" (My friends at the GC's R&D division have a pretty simple solution for this issue however.)
+Cloudflare makes it a chore to disable IPv6 support on their edge servers, you can't just flick the switch on the dashboard, which is annoying.
 
 {{< img src="4zqi9nln.bmp" width="70%" og=false >}}
 

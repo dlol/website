@@ -3,7 +3,7 @@ title: "How to Dump Neofetch Output into an Image"
 date: 2024-03-09T02:44:00+01:00
 ---
 
-I thought it was a cool idea to have a cronjob on the server hosting my website "dump" the neofetch system status output into an image that I could use on my site, flexing that uptime and to have some more dynamic things on my static website.
+I thought it was a cool idea to have a cronjob on the server hosting my website "dump" the neofetch system status output into an image that I could use on my site, showcasing the specs of my server.
 
 I found that the simplest solution was to do this with a package called [`ansilove`](https://www.ansilove.org/). Here is the result:
 
