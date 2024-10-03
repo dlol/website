@@ -4,7 +4,7 @@ translationKey: about
 date: 2024-10-02T00:10:59+02:00
 ---
 
-Oi, o meu nome é Diogo e o meu nick é "dw", "diowo" ou muitos outros... Eu gosto de fazer sites, aquivagem e auto-hospedar serviços em casa. Graças a isso, eu aprendi muito sobre Linux e outros sistemas tipo UNIX. Atualmente uso Arch Linux no meu ThinkPad para aprender, Windows 11 no meu PC e macOS no meu MacBook.
+Oi, o meu nome é Diogo e o meu nick é "dw", "diowo" ou muitos outros... Eu gosto de fazer sites, aquivagem e auto-hospedar serviços em casa. Graças a isso, eu aprendi muito sobre Linux e outros sistemas tipo UNIX. Atualmente uso Arch Linux no meu ThinkPad para experimentar, Windows 11 no meu PC e macOS no meu MacBook.
 
 Eu também tenho 3 servidores rodando 24 sob 24, incluindo 2 em casa: uma Raspberry Pi 3 e meu HomeLab, e este VPS no *[kyun.host](https://kyun.host)*, todos rodando Debian GNU/Linux.
 
