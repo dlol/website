@@ -34,9 +34,13 @@ enableRobotsTXT = true
         url = '/about/'
         weight = 30
       [[languages.en.menu.main]]
+        name = 'sign'
+        url = '/sign/'
+        weight = 30
+      [[languages.en.menu.main]]
         name = 'git'
         url = 'https://git.konakona.moe/dw'
-        weight = 40
+        weight = 50
         params.external = true
 
 

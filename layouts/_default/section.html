@@ -9,9 +9,11 @@
             <hr>
         </div>
         <br>
-
+        
         {{ partial "languages" . }}
-        <p>{{ .Content }}</p>
+        {{ if gt (len .AllTranslations) 1 }}<br>{{ end }}
+
+        {{ .Content }}
 
         {{ if gt (len (where .Pages "Kind" "page")) 0 }}
             <ul>
@@ -22,7 +24,7 @@
             {{ end }}
             </ul>
         {{ else }}
-            <p>there are no posts{{ i18n "there-are-no-posts-for-now" . }}</p>
+            <p>{{ i18n "no-posts" . }}</p>
         {{ end }}
 
         {{ template "_internal/pagination.html" . }}

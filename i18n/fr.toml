@@ -18,3 +18,6 @@
 
 [rss-description]
     other = "Flux RSS de {{ .Site.Title }}"
+
+[no-posts]
+    other = "Il n'y a pas de posts."

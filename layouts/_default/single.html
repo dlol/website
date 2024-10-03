@@ -8,8 +8,11 @@
             <hr>
         </div>
         <br>
+
         {{ partial "languages" . }}
-        <p>{{ .Content }}</p>
+        {{ if gt (len .AllTranslations) 1 }}<br>{{ end }}
+
+        {{ .Content }}
         
         {{ partial "copyright" . }}
         {{ partial "pagemeta" . }}

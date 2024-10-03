@@ -1,0 +1,25 @@
+
+<noscript>
+    <p 
+        style="
+            background-color: #e64553;
+            border: 2px solid #d20f39;
+            color: #dce0e8;
+            text-align: center;
+            margin: 10px 0;
+            padding: 5px;
+        "
+    >Please activate javascript so that the &lt;iframe&gt; below can be displayed without scrollbars and so that the "Toggle Reverse" button can work.</p>
+</noscript>
+
+<iframe
+    id="guestbook"
+    src="https://konakona.moe/guestbook-iframe/"
+    style="border: none; background: none; width: 100%; height: fit-content;"
+    frameborder="0"
+    scrolling="no"
+></iframe>
+
+<script src="{{ (resources.GetRemote `https://cdn.jsdelivr.net/npm/@iframe-resizer/parent@5.3.1/index.umd.min.js` | minify | fingerprint).RelPermalink }}"></script>
+
+<script>iframeResize({ log: false, waitForLoad: true, license: "GPLv3" }, "#guestbook")</script>

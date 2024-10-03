@@ -1,12 +1,14 @@
-<p id="lang">
-    {{ $links := slice }}
-    {{ range .AllTranslations }}
-        {{ $langName := .Language.LanguageName }}
-        {{ if eq $.Language.Lang .Language.Lang }}
-            {{ $langName = printf "[%s]" $langName }}
+{{ if gt (len .AllTranslations) 1 }}
+    <p id="lang">
+        {{ $links := slice }}
+        {{ range .AllTranslations }}
+            {{ $langName := .Language.LanguageName }}
+            {{ if eq $.Language.Lang .Language.Lang }}
+                {{ $langName = printf "[%s]" $langName }}
+            {{ end }}
+            {{ $link := printf "<a href=\"%s\">%s</a>" .Page.RelPermalink $langName | safeHTML }}
+            {{ $links = $links | append $link }}
         {{ end }}
-        {{ $link := printf "<a href=\"%s\">%s</a>" .Page.RelPermalink $langName | safeHTML }}
-        {{ $links = $links | append $link }}
-    {{ end }}
-    {{ i18n "available-in" . }}: {{ delimit $links " - " | safeHTML }}
-</p>
+        {{ i18n "available-in" . }}: {{ delimit $links " - " | safeHTML }}
+    </p>
+{{ end }}
