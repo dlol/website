@@ -2,7 +2,7 @@
     {{ if $index }} - {{ end }}
     {{ if eq ($element.URL | relLangURL) ($.RelPermalink) }}
         [<a target="_self" href="{{ $element.URL | relLangURL }}">{{ $element.Name }}</a>]
-    {{ else }}
-        <a target="_self" href="{{ $element.URL | relLangURL }}">{{ $element.Name }}</a>
+    {{ else }} {{/* an external anchor would never be selected */}}
+        <a target="_self" href="{{ $element.URL | relLangURL }}">{{ $element.Name }}{{ if $element.Params.external }}<img height="14" src="/icons/external.svg">{{ end }}</a>
     {{ end }}
 {{ end }}

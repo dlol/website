@@ -105,6 +105,28 @@ button:hover {
     margin-bottom: 0;
 }
 
+#top-right-card {
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    color: #FFFFFF;
+    border-radius: 8px;
+    border: 1px solid #222222;
+    width: fit-content;
+    height: fit-content;
+}
+
+div.flag-counter {
+    padding: 0;
+    width: fit-content;
+    height: fit-content;
+    box-sizing: border-box;
+}
+
 #bottom-left-card {
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
@@ -128,16 +150,16 @@ a:hover {
     color: #DDDDDD;
 }
 
-#bottom-left-card h3 {
+#bottom-left-card h3, #top-right-card h3 {
     margin: 0;
 }
 
-#bottom-left-card ul {
+#bottom-left-card ul, #top-right-card ul {
     margin: 0;
     padding-left: 20px;
 }
 
-#bottom-left-card p {
+#bottom-left-card p, #top-right-card p {
     margin: 12px 0;
 }
 
@@ -361,6 +383,10 @@ div.buttons-88x31 {
         color: #FFFFFF;
         border-radius: 8px;
         width: 70vw;
+    }
+
+    #top-right-card {
+        display: none;
     }
 
     button#prev {

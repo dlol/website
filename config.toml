@@ -15,6 +15,69 @@ enableRobotsTXT = true
   keywords = ["linux", "blog", "autism", "foss", "open source", "github", "tutorials", "self-hosting", "personal", "hobby"]
   repository = "https://git.konakona.moe/dw/konakona.moe/commits/branch/master/"
 
+[languages]
+  [languages.en]
+    LanguageName = "English"
+    languageCode = 'en-GB'
+    contentDir = 'content/en'
+    weight = 10
+      [[languages.en.menu.main]]
+        name = 'home'
+        url = '/'
+        weight = 10
+      [[languages.en.menu.main]]
+        name = 'blog'
+        url = '/blog/'
+        weight = 20
+      [[languages.en.menu.main]]
+        name = 'about'
+        url = '/about/'
+        weight = 30
+      [[languages.en.menu.main]]
+        name = 'git'
+        url = 'https://git.konakona.moe/dw'
+        weight = 40
+        params.external = true
+
+
+  [languages.fr]
+    LanguageName = "Français"
+    languageCode = 'fr-BE'
+    contentDir = 'content/fr'
+    weight = 20
+      [[languages.fr.menu.main]]
+        name = 'accueil'
+        url = '/'
+        weight = 10
+      [[languages.fr.menu.main]]
+        name = 'à propos'
+        url = '/a-propos/'
+        weight = 30
+      [[languages.fr.menu.main]]
+        name = 'git'
+        url = 'https://git.konakona.moe/dw'
+        weight = 40
+        params.external = true
+
+  [languages.pt]
+    LanguageName = "Português"
+    languageCode = 'pt-BR'
+    contentDir = 'content/pt'
+    weight = 30
+      [[languages.pt.menu.main]]
+        name = 'início'
+        url = '/'
+        weight = 10
+      [[languages.pt.menu.main]]
+        name = 'sobre'
+        url = '/sobre/'
+        weight = 30
+      [[languages.pt.menu.main]]
+        name = 'git'
+        url = 'https://git.konakona.moe/dw'
+        weight = 40
+        params.external = true
+
     [params.buttons]
     [[params.buttons.button]]
       url = "https://www.konakona.moe"
@@ -43,53 +106,6 @@ enableRobotsTXT = true
     [[params.buttons.button]]
       url = "https://www.notepad.org/"
       img = "notepad-fulvio.gif"
-
-[languages]
-  [languages.en]
-    LanguageName = "English"
-    languageCode = 'en-GB'
-    contentDir = 'content/en'
-    weight = 10
-      [[languages.en.menu.main]]
-        name = 'home'
-        url = '/'
-        weight = 10
-      [[languages.en.menu.main]]
-        name = 'about'
-        url = '/about/'
-        weight = 20
-      [[languages.en.menu.main]]
-        name = 'blog'
-        url = '/blog/'
-        weight = 20
-
-  [languages.fr]
-    LanguageName = "Français"
-    languageCode = 'fr-BE'
-    contentDir = 'content/fr'
-    weight = 20
-      [[languages.fr.menu.main]]
-        name = 'accueil'
-        url = '/'
-        weight = 10
-      [[languages.fr.menu.main]]
-        name = 'à propos'
-        url = '/a-propos/'
-        weight = 20
-
-  [languages.pt]
-    LanguageName = "Português"
-    languageCode = 'pt-BR'
-    contentDir = 'content/pt'
-    weight = 30
-      [[languages.pt.menu.main]]
-        name = 'início'
-        url = '/'
-        weight = 10
-      [[languages.pt.menu.main]]
-        name = 'sobre'
-        url = '/sobre/'
-        weight = 20
 
 [markup]
   [markup.highlight]
