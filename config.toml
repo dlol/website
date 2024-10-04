@@ -73,6 +73,10 @@ enableRobotsTXT = true
         url = '/'
         weight = 10
       [[languages.pt.menu.main]]
+        name = 'blog'
+        url = '/blog/'
+        weight = 20
+      [[languages.pt.menu.main]]
         name = 'sobre'
         url = '/sobre/'
         weight = 30
