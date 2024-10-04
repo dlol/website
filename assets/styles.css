@@ -452,3 +452,9 @@ div.buttons-88x31 {
         transform: translate(-50%, -50%);
     }
 }
+
+@media screen and (max-height: 900px) {
+    #main-card {
+        top: 46%;
+    }
+}
