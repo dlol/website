@@ -1,3 +1,8 @@
 {{ define "main" }}
-    <h1 id="_404-title">404 NOT FOUND</h1>
+    <div id="_404">
+        <h1 id="_404-title">{{ i18n "404-not-found" . }}</h1>
+        <span id="_404-menu-wrapper">
+            {{ partial "menus" . }}
+        </span>
+    </div>
 {{ end }}

@@ -213,10 +213,25 @@ p.no-js {
 }
 
 h1#_404-title {
-    z-index: 1;
-    color: #FFFFFF;
     font-size: 64px;
+    margin: 0;
     text-shadow: #000 0 0 20px;
+    color: #FFFFFF;
+}
+
+div#_404 {
+    z-index: 1;
+}
+
+span#_404-menu-wrapper {
+    justify-content: center;
+    display: flex;
+    text-shadow: #000 0 0 20px;
+    color: #FFFFFF;
+}
+
+span#_404-menu-wrapper > * {
+    margin: 0 10px;
 }
 
 code {
@@ -367,10 +382,17 @@ div.buttons-88x31 {
     }
 
     h1#_404-title {
-        z-index: 1;
-        color: #FFFFFF;
         font-size: 26px;
-        text-shadow: #000 0 0 20px;
+        text-align: center;
+    }
+
+    span#_404-menu-wrapper > *, span#_404-menu-wrapper {
+        margin: 0 5px;
+        font-size: 10px;
+    }
+
+    span#_404-menu-wrapper > a > img {
+        height: 8px;
     }
 
     #bottom-left-card {
