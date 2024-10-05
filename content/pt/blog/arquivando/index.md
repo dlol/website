@@ -22,6 +22,6 @@ Mais especificamente eu uso um script "wrapper" para arquivar canais inteiros do
 
 ## Mas por que?
 
-Deve ter um ano atrás em que um copyright troll quase deletou o canal do Viniccius13. É certo que um canal tão grande quanto o do Viniccius provavelmente teria o seus vídeos retornados, mas isso também não impediria um outro YouTuber de simplesmente desaparecer, levando todos os seus vídeos, como foi o caso do *AstroSoup*, um canal sobre GTA Online que simplesmente desapareceu sem deixar razão nenhuma. Alguns vídeos dele foram reupados mas em baixa qualidade mas muitos foram perdidos infelizmente.
+Deve ter um ano atrás em que um copyright troll quase deletou o canal do Viniccius13. É certo que um canal tão grande quanto o do Viniccius provavelmente teria o seus vídeos retornados, mas isso também não impediria um outro YouTuber de simplesmente desaparecer, levando todos os seus vídeos, como aconteceu com o *AstroSoup*, um canal sobre GTA Online que simplesmente desapareceu sem deixar razão nenhuma. Alguns vídeos dele foram reupados mas em baixa qualidade e muitos foram perdidos infelizmente.
 
 Arquivar esses vídeos quando eles acabam de sair também permite de salvar o vídeo no estado original, por exemplo, ter uma cópia dos videos antes deles terem sidos censurados, ou também guardar as músicas dos vídeos, já que às vezes os youtubers tiram a música usada no seus videos por causa de algum Content ID e a qualidade do áudio durante as partes onde o áudio foi removido fica horrível.
