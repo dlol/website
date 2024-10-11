@@ -101,7 +101,7 @@ button:hover {
     margin: 0;
 }
 
-#main-card h2, #main-card h3, #main-card h4, #main-card h5, #main-card h6 {
+#main-card :is(h2, h3, h4, h5, h6) {
     margin-bottom: 0;
 }
 
@@ -342,7 +342,8 @@ blockquote {
         to right,
         color-mix(in srgb, currentColor 8%, transparent),
         color-mix(in srgb, currentColor 30%, transparent),
-        color-mix(in srgb, currentColor 8%, transparent));
+        color-mix(in srgb, currentColor 8%, transparent)
+    );
 }
 
 blockquote::before {
