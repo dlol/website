@@ -19,7 +19,7 @@ J'ai également 3 serveurs qui tournent h24, dont 2 à la maison: un Raspberry P
 
 Vous pouvez m'envoyer un email, je n'en reçois pas souvent donc je le lirai probablement rapidement.
 
-**E-Mail**: <⁪⁪⁪d⁪⁪w⁪⁪ ⁪⁪[⁪⁪a⁪⁪t⁪⁪]⁪⁪ k⁪⁪o⁪⁪n⁪⁪a⁪⁪k⁪⁪o⁪⁪n⁪⁪a⁪⁪ ⁪⁪[⁪⁪d⁪⁪0⁪⁪t⁪⁪]⁪⁪ ⁪⁪m⁪⁪o⁪⁪e⁪⁪> <sup>[[pgp](/dw%20(F646EDE4)%20%E2%80%93%20Public.asc)]</sup>
+**E-Mail**: <a href="mailto:%64%77%40%6b%6f%6e%61%6b%6f%6e%61%2e%6d%6f%65"><⁪⁪⁪d⁪⁪w⁪⁪ ⁪⁪[⁪⁪a⁪⁪t⁪⁪]⁪⁪ k⁪⁪o⁪⁪n⁪⁪a⁪⁪k⁪⁪o⁪⁪n⁪⁪a⁪⁪ ⁪⁪[⁪⁪d⁪⁪0⁪⁪t⁪⁪]⁪⁪ ⁪⁪m⁪⁪o⁪⁪e⁪⁪></a> <sup>[[pgp](/dw%20(F646EDE4)%20%E2%80%93%20Public.asc)]</sup>
 
 <p style="position: relative; bottom: 12px; margin-bottom: 0; font-size: 12px; margin-left: 10px;"><i><b>obfuscation:</b> s.v.p. copiez <u>manuellement</u> mon adresse mail; il y a des charactères invisibles!</i></p>
 
