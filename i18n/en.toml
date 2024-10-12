@@ -20,4 +20,4 @@
     other = "{{ .Site.Title }}'s RSS Feed"
 
 [no-posts]
-    other = "There are no posts."
+    other = "There are no posts (yet)."

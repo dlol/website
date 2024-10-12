@@ -20,4 +20,4 @@
     other = "Fio RSS de {{ .Site.Title }}"
 
 [no-posts]
-    other = "Não há posts."
+    other = "Ainda não tem posts."

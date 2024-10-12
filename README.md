@@ -4,4 +4,4 @@ This is my personal website built with [hugo](https://gohugo.io).
 
 ## License
 
-All Right Reserved
+All Rights Reserved

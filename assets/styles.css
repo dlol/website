@@ -252,7 +252,7 @@ div.highlight > pre {
 
 .highlight * {
     font-size: 14px;
-    font-family: "Cascadia Code";
+    font-family: "monospace";
     font-weight: 500;
 }
 
@@ -261,7 +261,7 @@ div.highlight > pre {
 }
 
 .highlight pre {
-    padding: 5px 0;
+    padding: 10px;
 }
 
 .highlight tr, .highlight pre {
@@ -368,6 +368,12 @@ blockquote::after {
 
 div.buttons-88x31 {
     text-align: center;
+}
+
+p.no-posts {
+    font-style: italic;
+    color: #888888;
+    margin-top: 10px;
 }
 
 @media screen and (max-width: 1100px) {

@@ -24,7 +24,7 @@
             {{ end }}
             </ul>
         {{ else }}
-            <p>{{ i18n "no-posts" . }}</p>
+            <p class="no-posts">{{ i18n "no-posts" . }}</p>
         {{ end }}
 
         {{ template "_internal/pagination.html" . }}

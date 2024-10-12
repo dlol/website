@@ -1,5 +1,4 @@
 baseURL = "https://konakona.moe/"
-title = "dw | konakona.moe"
 defaultContentLanguage = "en"
 copyright = "© 2022-2024 - konakona.moe - all rights reserved"
 enableGitInfo = true
@@ -17,6 +16,7 @@ enableRobotsTXT = true
 
 [languages]
   [languages.en]
+    title = "diogo's website"
     LanguageName = "English"
     languageCode = 'en-GB'
     contentDir = 'content/en'
@@ -45,6 +45,7 @@ enableRobotsTXT = true
 
 
   [languages.fr]
+    title = "le site web a diogo"
     LanguageName = "Français"
     languageCode = 'fr-BE'
     contentDir = 'content/fr'
@@ -53,6 +54,10 @@ enableRobotsTXT = true
         name = 'accueil'
         url = '/'
         weight = 10
+      [[languages.fr.menu.main]]
+        name = 'blog'
+        url = '/blog/'
+        weight = 20
       [[languages.fr.menu.main]]
         name = 'à propos'
         url = '/a-propos/'
@@ -64,6 +69,7 @@ enableRobotsTXT = true
         params.external = true
 
   [languages.pt]
+    title = "o site do diogo"
     LanguageName = "Português"
     languageCode = 'pt-BR'
     contentDir = 'content/pt'
@@ -120,8 +126,6 @@ enableRobotsTXT = true
     codeFences = true
     style = "onedark"
     tabWidth = 4
-    lineNumbersInTable = false
-    lineNos = true
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
