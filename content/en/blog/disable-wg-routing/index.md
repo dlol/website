@@ -3,13 +3,13 @@ title: "How to Disable Routing for Wireguard Interfaces"
 date: 2024-02-20T18:40:31+01:00
 ---
 
-This was part of my qBittorrent-nox guide but I've slitted it up.
+I've learned that it's possible configure WireGuard as to not route everything through it. This enables me to use WireGuard just as another interface that I can *optionally* bind to, like separate Wi-Fi and Ethernet interfaces in the same computer, but this time with a different IP. The possibilities are probably endless.
 
-To make WireGuard not route all traffic through it, you'll need to edit your config files. By following this guide you will be leaving the WireGuard interface as just another network interface you can *optionally* bind to, think of Wi-Fi and Ethernet interfaces, depending on the application you can just select which one you are going to use. What's cooler is that, even if your server already acts like a WireGuard server, like mine does, you're still going to be able to use WireGuard as a client. To do this:
+## Tutorial 
 
 Leave `AllowedIPs=` as is `(0.0.0.0/0)`.
 
-Add `Table = off` below `[Interface]`. This will allow you to split tunnel the traffic.
+Add `Table = off` below `[Interface]`. This will allow you to split tunnel the traffic. That's all you have to do!
 
 `/etc/wireguard/<your-wg-conf>.conf`
 ```ini
@@ -27,7 +27,7 @@ Endpoint = <IP>:51820
 PersistentKeepalive = 60
 ```
 
-Now you could just chmod 660 or 640 this config file to make it safer. (Make sure it's owned by root!)
+Now `chmod 660 or 640` this config file and `chown root` it.
 
 ```plain
 chmod 640 /etc/wireguard/<your-wg-conf>.conf

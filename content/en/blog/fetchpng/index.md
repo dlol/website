@@ -3,13 +3,13 @@ title: "How to Dump Neofetch Output into an Image"
 date: 2024-03-09T02:44:00+01:00
 ---
 
-I thought it was a cool idea to have a cronjob on the server hosting my website "dump" the neofetch system status output into an image that I could use on my site, showcasing the specs of my server.
+I thought it was cool to have a cron job on my server "dumping" the neofetch output into an image ever so often. This way I could link this image on my website to show off my server status.
 
-I found that the simplest solution was to do this with a package called [`ansilove`](https://www.ansilove.org/). Here is the result:
+I found that the simplest solution to this, was to use [`ansilove`](https://www.ansilove.org/).
+
+Here is the result:
 
 ![Fetch](https://konakona.moe/fetch.png)
-
-You can also see this on the [About](/about/) section of my site.
 
 ```sh
 #!/bin/sh
@@ -26,18 +26,16 @@ ansilove -o "$location" "$temp"
 rm $temp
 ```
 
-After copying or downloading it, edit the script changing the location of where you want to save the image, and the header text if you want. Then set it as executable with `chmod +x fetchpng` and copy it to your `$PATH`, for example to `/usr/local/bin/`.
+After copying this script, edit it changing the header text and the location of where you want to save the image, I like saving the image on the root of my website, so I can easily link it here. Set it as an executable file with `chmod +x fetchpng` and copy it to your `$PATH`, for example to `/usr/local/bin/`.
 
-Now of course make sure to download `ansilove` and `neofetch`, which are both on the Debian 12 repository.
+Now of course make sure to download `ansilove` and `neofetch`.
 
-Now we need to add the cronjob, I like using the root user here so I'm 100% certain that the image will be generated into that directory.
+Make a new cron job. I like using the root user here so I'm 100% certain that the image will be generated into that directory.
 
 `sudo crontab -eu root`
 ```sh
 */10 * * * * /usr/local/bin/fetchpng # 10 minute example
 ```
-
-Now save it and you will have an usable image being generated each 10 minutes in the root of your website.
 
 > Note: I like uploading my site with rsync, so I have to add some exclusions so that it doesn't exclude this image when I'm uploading my site
 >

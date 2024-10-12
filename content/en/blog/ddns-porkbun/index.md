@@ -1,11 +1,9 @@
 ---
-title: "Dynamic DNS with a Single Bash Script using Porkbun's API"
+title: "Porkbun Dynamic DNS Script"
 date: 2024-01-31T16:24:31+01:00
 ---
 
-This tutorial is about a very simple bash script that I have made to update my DNS records on my registrar (porkbun). It is a showcase of that you don't need an account on no-ip or whatever other ddns service. This script works, in particular with [Porkbun](https://porkbun.com) but if you've found my website, it probably means that you can take this as inspiration and use it with the API of another registrar.
-
-It's funny that my ISP offers static IPs... for +36€ a month... I defeated that with a 27 SLOC bash script.
+This tutorial is about a very simple bash script that I have made to update my DNS records on my registrar. This script works, in particular, with [Porkbun](https://porkbun.com), the registrar that I use for my domains.
 
 ## The Script
 
@@ -46,7 +44,7 @@ if [ "$ip" != "$cachedip" ] || [ -z "$cachedip" ]; then
         \"apikey\": \"$apikey\",
         \"content\": \"$ip\",
         \"ttl\": \"600\"
-    }" https://porkbun.com/api/json/v3/dns/editByNameType/"$domain"/A/"$subdomain"
+    }" https://api.porkbun.com/api/json/v3/dns/editByNameType/"$domain"/A/"$subdomain"
     echo
 else
     echo "Your IP has not changed."
@@ -57,7 +55,7 @@ fi
 
 - The API documentation is here: <https://porkbun.com/api/json/v3/documentation>.
 
-- The particular API documentation that I used is here: [DNS Edit Record by Domain, Subdomain and Type](https://porkbun.com/api/json/v3/documentation#DNS%20Edit%20Record%20by%20Domain,%20Subdomain%20and%20Type)
+- The particular API documentation I used is here: [DNS Edit Record by Domain, Subdomain and Type](https://porkbun.com/api/json/v3/documentation#DNS%20Edit%20Record%20by%20Domain,%20Subdomain%20and%20Type)
 
 ## Using CNAMEs
 
