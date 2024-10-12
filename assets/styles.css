@@ -351,7 +351,7 @@ blockquote::before {
 	font-size: 60px;
     opacity: .4;
 	position: absolute;
-	top: -10px;
+	top: -15px;
 	left: 5px;
     z-index: -1;
 }
