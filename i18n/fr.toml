@@ -17,7 +17,7 @@
     other = "Historique"
 
 [rss-description]
-    other = "Flux RSS de {{ .Site.Title }}"
+    other = "Flux RSS du {{ .Site.Title }}"
 
 [no-posts]
     other = "Il n'y a pas (encore) de posts."

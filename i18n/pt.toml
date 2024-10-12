@@ -17,7 +17,7 @@
     other = "Histórico"
 
 [rss-description]
-    other = "Fio RSS de {{ .Site.Title }}"
+    other = "Fio RSS do {{ .Site.Title }}"
 
 [no-posts]
     other = "Ainda não tem posts."

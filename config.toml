@@ -45,7 +45,7 @@ enableRobotsTXT = true
 
 
   [languages.fr]
-    title = "le site web a diogo"
+    title = "site web à diogo"
     LanguageName = "Français"
     languageCode = 'fr-BE'
     contentDir = 'content/fr'
@@ -69,7 +69,7 @@ enableRobotsTXT = true
         params.external = true
 
   [languages.pt]
-    title = "o site do diogo"
+    title = "site do diogo"
     LanguageName = "Português"
     languageCode = 'pt-BR'
     contentDir = 'content/pt'
