@@ -10,7 +10,7 @@ enableRobotsTXT = true
 	path = ""
 
 [params]
-  tracking = "<script defer src='https://u.konakona.moe/script.js' data-website-id='8d395101-a825-482a-8c56-b3988afc691f'></script>"
+  tracking = ""
   keywords = ["linux", "blog", "autism", "foss", "open source", "github", "tutorials", "self-hosting", "personal", "hobby"]
   repository = "https://git.konakona.moe/dw/konakona.moe/commits/branch/master/"
 
@@ -93,12 +93,6 @@ enableRobotsTXT = true
         params.external = true
 
     [params.buttons]
-    [[params.buttons.button]]
-      url = "https://www.konakona.moe"
-      img = "konakona.png"
-    [[params.buttons.button]]
-      url = "https://nyaa.si/view/917375"
-      img = "konata.gif"
     [[params.buttons.button]]
       url = "https://en.wikipedia.org/wiki/High-functioning_autism"
       img = "autism.png"

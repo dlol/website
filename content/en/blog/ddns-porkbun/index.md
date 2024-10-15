@@ -16,7 +16,7 @@ This tutorial is about a very simple bash script that I have made to update my D
 # Example cronjob for a 600 seconds TTL:
 # */10 * * * * porkbun-ddns
 
-domain="konakona.moe" # The domain name
+domain=""             # The domain name
 subdomain=""          # The subdomain, yes you can leave it blank, see below CNAMEs
 secretapikey=""       # Your secret API key
 apikey=""             # The API key, no idea why they split it in two
@@ -56,10 +56,6 @@ fi
 - The API documentation is here: <https://porkbun.com/api/json/v3/documentation>.
 
 - The particular API documentation I used is here: [DNS Edit Record by Domain, Subdomain and Type](https://porkbun.com/api/json/v3/documentation#DNS%20Edit%20Record%20by%20Domain,%20Subdomain%20and%20Type)
-
-## Using CNAMEs
-
-You don't need to make copies of this script for each and every sub-domain that you are going to use if they are hosted on the same IP! In my case I just set up this script to push the new IPs on `konakona.moe` and CNAMEd everything else to it.
 
 ## Setting it up
 
