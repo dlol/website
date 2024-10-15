@@ -39,7 +39,7 @@ enableRobotsTXT = true
         weight = 30
       [[languages.en.menu.main]]
         name = 'git'
-        url = 'https://git.konakona.moe/dw'
+        url = 'https://github.com/dlol'
         weight = 50
         params.external = true
 
@@ -64,7 +64,7 @@ enableRobotsTXT = true
         weight = 30
       [[languages.fr.menu.main]]
         name = 'git'
-        url = 'https://git.konakona.moe/dw'
+        url = 'https://github.com/dlol'
         weight = 40
         params.external = true
 
@@ -88,7 +88,7 @@ enableRobotsTXT = true
         weight = 30
       [[languages.pt.menu.main]]
         name = 'git'
-        url = 'https://git.konakona.moe/dw'
+        url = 'https://github.com/dlol'
         weight = 40
         params.external = true
 
