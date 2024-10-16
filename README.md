@@ -1,4 +1,4 @@
-# konakona.moe
+# ~dw
 
 This is my personal website built with [hugo](https://gohugo.io).
 

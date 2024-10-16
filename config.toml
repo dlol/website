@@ -12,7 +12,7 @@ enableRobotsTXT = true
 [params]
   tracking = ""
   keywords = ["linux", "blog", "autism", "foss", "open source", "github", "tutorials", "self-hosting", "personal", "hobby"]
-  repository = "https://git.konakona.moe/dw/konakona.moe/commits/branch/master/"
+  repository = "https://github.com/dlol/website/commits/master/"
 
 [languages]
   [languages.en]

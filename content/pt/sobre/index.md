@@ -19,7 +19,7 @@ Eu também tenho 3 servidores rodando 24 sob 24, incluindo 2 em casa: uma Raspbe
 
 Você pode me enviar um email, não recebo muitos, então vou provavelmente ler rapidamente.
 
-**E-Mail**: <a href="mailto:%64%77%40%6b%6f%6e%61%6b%6f%6e%61%2e%6d%6f%65"><⁪⁪⁪d⁪⁪w⁪⁪ ⁪⁪[⁪⁪a⁪⁪t⁪⁪]⁪⁪ k⁪⁪o⁪⁪n⁪⁪a⁪⁪k⁪⁪o⁪⁪n⁪⁪a⁪⁪ ⁪⁪[⁪⁪d⁪⁪0⁪⁪t⁪⁪]⁪⁪ ⁪⁪m⁪⁪o⁪⁪e⁪⁪></a> <sup>[[pgp](/dw%20(F646EDE4)%20%E2%80%93%20Public.asc)]</sup>
+**E-Mail**: <a href="mailto:%64%77%40%6b%6f%6e%61%6b%6f%6e%61%2e%6d%6f%65"><⁪⁪⁪d⁪⁪w⁪⁪ ⁪⁪[⁪⁪a⁪⁪t⁪⁪]⁪⁪ k⁪⁪o⁪⁪n⁪⁪a⁪⁪k⁪⁪o⁪⁪n⁪⁪a⁪⁪ ⁪⁪[⁪⁪d⁪⁪0⁪⁪t⁪⁪]⁪⁪ ⁪⁪m⁪⁪o⁪⁪e⁪⁪></a> <sup>[[pgp](/public.asc)]</sup>
 
 <p style="position: relative; bottom: 12px; margin-bottom: 0; font-size: 12px; margin-left: 10px;"><i><b>obfuscação:</b> por favor, copie <u>manualmente</u> o meu email; tem caractéres invisíveis!</i></p>
 
