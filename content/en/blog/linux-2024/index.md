@@ -74,7 +74,7 @@ That's why the only package managers that matter are probably pacman, portage an
 
 These "universal" package managers only exist to remedy a problem that Debian and probably RHEL created: they don't have many packages or they are all out of date (also why do people actually unironically use Debian on the desktop) and most people eat that shit up thinking its going to fix Linux, It won't.
 
->### Update
+><h3 style="margin-top: 0;">Update</h3>
 >Honestly I wrote this a while back and I don't care anymore about this section, sandboxing applications sounds nice if there's no overhead especially for proprietary and even some lesser known open source stuff. Backdooring an application takes few lines of code, open source doesn't automatically makes something better, just look at the `xz` fiasco. Nothing is perfect frankly and uhm if it works it works.
 
 ## Making my friend's lives miserable
@@ -101,7 +101,7 @@ Maybe it was MS smiting me for ever thinking of plugging their stupid 30€ dong
 
 ## Conclusion
 
-I hope I haven't upset you Linux people off that much, because I really do love using Linux on the server and sometimes I just get bored out of Windows or Mac and just want to install Linux and tinker a bit, there's something really soothing about installing suckless applications or maybe I'm just like torturing myself.
+I hope I haven't upset you Linux people off that much, because I really do love using Linux on the server and sometimes I just get bored out of Windows or Mac and just want to install Linux and tinker a bit, there's something really soothing about installing suckless applications or maybe I just like torturing myself.
 
 I am also considering trying out Gnome on probably for an HTPC so I'll probably get a proper taste of it.
 
