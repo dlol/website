@@ -35,14 +35,13 @@ enableRobotsTXT = true
         weight = 30
       [[languages.en.menu.main]]
         name = 'sign'
-        url = '/sign/'
-        weight = 30
+        url = '/guestbook/'
+        weight = 40
       [[languages.en.menu.main]]
         name = 'git'
         url = 'https://github.com/dlol'
         weight = 50
         params.external = true
-
 
   [languages.fr]
     title = "site web à diogo"
@@ -63,9 +62,13 @@ enableRobotsTXT = true
         url = '/a-propos/'
         weight = 30
       [[languages.fr.menu.main]]
+        name = 'signer'
+        url = '/livre-d-or/'
+        weight = 40
+      [[languages.fr.menu.main]]
         name = 'git'
         url = 'https://github.com/dlol'
-        weight = 40
+        weight = 50
         params.external = true
 
   [languages.pt]
@@ -87,9 +90,13 @@ enableRobotsTXT = true
         url = '/sobre/'
         weight = 30
       [[languages.pt.menu.main]]
+        name = 'ass.'
+        url = '/livro-de-convidados/'
+        weight = 40
+      [[languages.pt.menu.main]]
         name = 'git'
         url = 'https://github.com/dlol'
-        weight = 40
+        weight = 50
         params.external = true
 
     [params.buttons]
