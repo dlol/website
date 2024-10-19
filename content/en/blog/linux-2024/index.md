@@ -38,7 +38,7 @@ I despise theming on Linux. Why? Because while half of the applications like the
 
 Still there are some good examples of Qt applications like KeePassXC that have a default light and dark themes, but most applications don't, meaning they still follow your global theme but global themes on Qt and GTK are garbage.
 
-> ### Quote from the catppuccin GTK port
+> <h3 style="margin-top: 0;">Quote from the catppuccin GTK port</h3>
 >GTK, while being one of our most popular ports, can only be described as a nightmare to consistently theme and maintain. To understand why this port has been archived, please see [#262](https://github.com/catppuccin/gtk/issues/262).
 
 Whoops, GTK got discontinued in one very popular color palette. There's also the versioning problem of GTK, there's 1, 2 ,3, 4 probably 5 by now which means is that even if you got it right, it probably won't look right on older versions or maybe you want your GTK and Qt themes to look alike, well good luck lol it's awful. I for one gave up on theming my GUI applications while using Linux a while back and just went with the standard Adwaita theme and the default Qt dark theme.

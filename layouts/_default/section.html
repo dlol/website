@@ -1,13 +1,8 @@
 {{ define "main" }}
     <main id="main-card">
-        <div class="fit-width-hr">
-            <h1>
-                <a href="..">←</a>
-                <i>{{ .Title }}</i>
-                <a href="../index.xml"><img height="24" width="24" src="/icons/rss.svg" alt="rss"></a>
-            </h1>
-            <hr>
-        </div>
+        <h1>
+            <a href="..">←</a>{{ .Title }} <a href="../index.xml"><img height="24" width="24" src="/icons/rss.svg" alt="rss"></a>
+        </h1>
         <br>
         
         {{ partial "languages" . }}

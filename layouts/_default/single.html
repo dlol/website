@@ -1,12 +1,9 @@
 {{ define "main" }}
     <main id="main-card">
-        <div class="fit-width-hr">
-            <h1>
-                <a href="..">←</a>
-                <i>{{ .Title }}</i>
-            </h1>
-            <hr>
-        </div>
+        <h1>
+            <a href="..">←</a>{{ .Title }}
+        </h1>
+        <hr>
         <br>
 
         {{ partial "languages" . }}
