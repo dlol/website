@@ -1,10 +1,9 @@
 {{ define "main" }}
     <main id="main-card">
         <h1>
-            <a href="..">←</a>{{ .Title }}
+            <a href="..">←</a> {{ .Title }}
         </h1>
         <hr>
-        <br>
 
         {{ partial "languages" . }}
         {{ if gt (len .AllTranslations) 1 }}<br>{{ end }}
