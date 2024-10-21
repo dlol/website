@@ -14,7 +14,7 @@ This is quite simple to achieve: take the port of local service you want to secu
 }
 ```
 
-Now you can access this service through `<ip>:9999`. To add HTTPS you just need to use the `tls` directive with `internal` as the issuer and `on_demand` as the subdirective. The `on_demand` subdirective fixes an error I got on my browser saying `SSL_ERROR_INTERNAL_ERROR_ALERT` however ***do not*** use this for external services.
+Now you can access this service through `<ip>:9899`. To add HTTPS you just need to use the `tls` directive with `internal` as the issuer and `on_demand` as the subdirective. The `on_demand` subdirective fixes an error I got on my browser saying `SSL_ERROR_INTERNAL_ERROR_ALERT` however ***do not*** use this for external services.
 
 ```Caddyfile
 :9899 {
