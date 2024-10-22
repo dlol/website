@@ -1,5 +1,7 @@
 * {
     font-family: Arial, sans-serif;
+    scrollbar-width: thin;
+    scrollbar-color: #E6E6E6 transparent;
 }
 
 body, html {
@@ -15,9 +17,9 @@ body, html {
     position: relative;
 }
 
-::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar { width: 2px; }
 ::-webkit-scrollbar-track { background-color: transparent; }
-::-webkit-scrollbar-thumb { background-color: #eee; }
+::-webkit-scrollbar-thumb { background-color: #E6E6E6; }
 
 .background {
     position: absolute;
@@ -53,18 +55,15 @@ p {
 }
 
 button {
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    background-color: rgba(0, 0, 0, 0.5);
-    border: none;
-    color: #FFFFFF;
+    color: #E6E6E6;
     font-size: 24px;
     cursor: pointer;
-    outline: 1px solid #222222;
-    border-radius: 5px;
-    height: 100px;
-    width: 50px;
+    height: 80px;
+    width: 40px;
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 button#prev {
@@ -76,25 +75,19 @@ button#next {
 }
 
 button:hover {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: #1d1c1eaa;
 
 }
 
 #main-card {
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.6);
-    padding: 20px;
-    color: #FFFFFF;
-    border-radius: 8px;
-    border: 1px solid #222222;
     width: 850px;
     max-height: 70vh;
     overflow: scroll;
+    overflow-x: hidden;
 }
 
 #main-card h1 {
@@ -106,16 +99,9 @@ button:hover {
 }
 
 #top-right-card {
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
     position: absolute;
     top: 20px;
     right: 20px;
-    background-color: rgba(0, 0, 0, 0.6);
-    padding: 20px;
-    color: #FFFFFF;
-    border-radius: 8px;
-    border: 1px solid #222222;
     width: fit-content;
     height: fit-content;
 }
@@ -127,23 +113,27 @@ div.flag-counter {
     box-sizing: border-box;
 }
 
-#bottom-left-card {
+.card {
+    background-color: #1d1c1ecc;
+    border: 1px solid #000000AA;
+    box-shadow: 0 0 0 1px #707071 inset;
+    padding: 20px;
+    color: #E6E6E6;
+    border-radius: 8px;
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
+}
+
+#bottom-left-card {
     position: absolute;
     bottom: 20px;
     left: 20px;
-    background-color: rgba(0, 0, 0, 0.6);
-    padding: 20px;
-    color: #FFFFFF;
-    border-radius: 8px;
-    border: 1px solid #222222;
     max-width: 320px;
     height: fit-content;
 }
 
 a {
-    color: #FFFFFF;
+    color: #E6E6E6;
 }
 
 a:hover {
@@ -168,17 +158,32 @@ p#lang {
     font-size: 10px;
 }
 
+hr {
+    border: solid #434344;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-bottom-width: 0;
+    border-top-width: 1px;
+}
+
 .fit-width-hr {
     width: fit-content;
 }
 
 .fit-width-hr hr {
-    color: #FFFFFF;
+    color: #E6E6E6;
     margin: 0;
-    border: none;
-    border-bottom: 1px solid;
+    border: solid;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-bottom-width: 0;
+    border-top-width: 1px;
     height: 1px;
     width: 100%;
+}
+
+#metadata > p {
+    text-shadow: 4px 4px 10px #000000;
 }
 
 #metadata {
@@ -186,7 +191,7 @@ p#lang {
     bottom: 40px;
     right: 40px;
     z-index: 1;
-    color: #FFFFFF;
+    color: #E6E6E6;
     margin: 0;
     text-align: end;
 }
@@ -202,7 +207,7 @@ p#lang {
 }
 
 p.no-js {
-    color: #FFFFFF;
+    color: #E6E6E6;
     background-color: #000000AA;
     padding: 2px;
     margin: 0;
@@ -216,7 +221,7 @@ h1#_404-title {
     font-size: 64px;
     margin: 0;
     text-shadow: #000 0 0 20px;
-    color: #FFFFFF;
+    color: #E6E6E6;
 }
 
 div#_404 {
@@ -227,7 +232,7 @@ span#_404-menu-wrapper {
     justify-content: center;
     display: flex;
     text-shadow: #000 0 0 20px;
-    color: #FFFFFF;
+    color: #E6E6E6;
 }
 
 span#_404-menu-wrapper > * {
@@ -332,10 +337,9 @@ span.section-post-date {
 }
 
 blockquote {
+    border: 1px solid #434344;
     margin: 15px 0;
-	font-style: italic;
-    animation: 0.01s textFlicker alternate infinite;
-    padding: 25px 35px;
+    padding: 15px 25px 15px 40px;
 	margin-bottom: 16px;
 	position: relative;
     background: linear-gradient(
@@ -418,9 +422,8 @@ p.no-posts {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        background-color: rgba(0, 0, 0, 0.6);
         padding: 20px;
-        color: #FFFFFF;
+        color: #E6E6E6;
         border-radius: 8px;
         width: 70vw;
     }
@@ -438,7 +441,7 @@ p.no-posts {
     }
 
     button {
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: #1d1c1eaa;
         border: none;
         color: white;
         font-size: 22px;

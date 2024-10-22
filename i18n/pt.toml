@@ -21,3 +21,9 @@
 
 [no-posts]
     other = "Ainda não tem posts."
+
+[next-button]
+    other = "Próximo papel de parede"
+
+[prev-button]
+    other = "Papel de parede anterior"

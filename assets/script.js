@@ -66,17 +66,6 @@ const wallpapers = [
        }
     },
     {
-        "src": "/papes/santorin-2.webp",
-        "meta": {
-             "location": {
-                "en-GB": "Emporeío, Santorini, Greece",
-                "pt-BR": "Emporeío, Santorini, Grécia",
-                "fr-BE": "Emporeío, Santorin, Grèce"
-            },
-            "date": "2022-08-24T19:49:00.000+03:00"
-        }
-    },
-    {
         "src": "/papes/santorin.webp",
         "meta": {
              "location": {
@@ -129,17 +118,6 @@ const wallpapers = [
                 "fr-BE": "Inhapim, Minas Gerais, Brésil"
             },
             "date": "2024-07-21T15:48:00.000-03:00"
-        }
-    },
-    {
-        "src": "/papes/brasil-3.webp",
-        "meta": {
-            "location": {
-                "en-GB": "Timóteo, Minas Gerais, Brazil",
-                "pt-BR": "Timóteo, Minas Gerais, Brasil",
-                "fr-BE": "Timóteo, Minas Gerais, Brésil"
-            },
-            "date": "2024-07-26T10:43:00.000-03:00"
         }
     },
     {

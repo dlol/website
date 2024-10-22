@@ -21,3 +21,9 @@
 
 [no-posts]
     other = "Il n'y a pas (encore) de posts."
+
+[next-button]
+    other = "Fond d'écran suivant"
+
+[prev-button]
+    other = "Fond d'écran précédent"

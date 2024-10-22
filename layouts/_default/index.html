@@ -1,5 +1,5 @@
 {{ define "main" }}
-    <div id="bottom-left-card">
+    <div class="card" id="bottom-left-card">
         <div class="fit-width-hr">
             <h3>{{ (.Site.GetPage "index").Title }}</h3>
             <hr>
@@ -10,16 +10,16 @@
         {{ partial "languages" . }}
     </div>
 
-    <div id="top-right-card">
+    <div class="card" id="top-right-card">
         <div class="flag-counter">
             <iframe
                 frameborder="0"
-                style="border: none; background: none; width: 380px; height: 100px; overflow: hidden;"
+                style="border: none; background: none; width: 380px; height: 97px; overflow: hidden;"
                 scrolling="no"
                 src="https://konakona.moe/flagcounter/flags"
             >
             </iframe>
         </div>
-        <img title="Visitor counter!" style="float: right;" height="50" width="auto" src="https://konakona.moe/flagcounter/counter?digits=9&theme=asoul" alt="counter"> 
+        <img title="Visitor counter!" style="float: right;" height="50" width="auto" src="https://konakona.moe/flagcounter/counter?digits=7&theme=asoul" alt="counter"> 
     </div>
 {{ end }}

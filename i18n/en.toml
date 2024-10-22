@@ -21,3 +21,9 @@
 
 [no-posts]
     other = "There are no posts (yet)."
+
+[next-button]
+    other = "Next Wallpaper"
+
+[prev-button]
+    other = "Previous Wallpaper"
